@@ -87,3 +87,4 @@
 # print(attendance>=75 and marks>=40)
 
 
+
