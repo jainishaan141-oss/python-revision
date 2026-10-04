@@ -41,3 +41,35 @@
 # result = sum(1, 1)
 # print(result)
 
+# def student():
+#     name = "ishaan"
+#     print(name)
+# student()
+
+# def calculate():
+#     num = 5
+#     print(num * 5)
+# calculate()
+
+# college = "SKIT"
+# def display():
+#     print(college)
+#     display()
+# print(college)
+
+# pi = 3.14
+# def area(radius):
+#     print(pi * radius * radius)
+# area(5)
+
+# message = "welcome!"
+# def greet():
+#     print(message)
+# greet()
+# print(message)
+
+# square = lambda x: x * x
+# print(square(5))
+
+add = lambda a, b: a + b
+print(add(1,1))
