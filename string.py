@@ -62,12 +62,12 @@
 # age = 19
 # print(f"My name is{name} and I am{age} years old.")
 
-def is_palindrome(text):
-    cleaned_text = text.lower()
-    reversed_text = cleaned_text[::-1]
-    return cleaned_text == reversed_text
-word = "Racecar"
-if is_palindrome(word):
-    print(f'"{word}" is a palindrome!')
-else:
-    print(f'"{word}" is not a palindrome.')
+# def is_palindrome(text):
+#     cleaned_text = text.lower()
+#     reversed_text = cleaned_text[::-1]
+#     return cleaned_text == reversed_text
+# word = "Racecar"
+# if is_palindrome(word):
+#     print(f'"{word}" is a palindrome!')
+# else:
+#     print(f'"{word}" is not a palindrome.')
