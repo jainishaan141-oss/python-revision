@@ -36,3 +36,38 @@
 # name= "   Rahul   "
 # print(name.strip())
 
+# text = "ishaan jain"
+# print("jain" in text)
+
+# text = "ishaan jain"
+# print(text.find("jain"))
+
+# text = "ishaan jain"
+# print(text.count("a"))
+
+# text = "ishaan jain"
+# print(text.startswith("jain"))
+# print(text.startswith("ishaan"))
+
+# text = "ishaan jain"
+# print(text.endswith("jain"))
+# print(text.end swith("ishaan"))
+
+# name  = "Rahul"
+# age = 20
+# print("Name:",name)
+# print("Age:",age)
+
+# name = "Riya"
+# age = 19
+# print(f"My name is{name} and I am{age} years old.")
+
+def is_palindrome(text):
+    cleaned_text = text.lower()
+    reversed_text = cleaned_text[::-1]
+    return cleaned_text == reversed_text
+word = "Racecar"
+if is_palindrome(word):
+    print(f'"{word}" is a palindrome!')
+else:
+    print(f'"{word}" is not a palindrome.')
