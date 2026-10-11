@@ -95,13 +95,13 @@
 
 # 20. Check whether a tuple contains a given value without using in.
 
-my_tuple = (10, 20, 30, 40, 50)
-target_value = 30
-found = False
-for element in my_tuple:
-    if element == target_value:
-        found = True
-        break  
-print(found)
+# my_tuple = (10, 20, 30, 40, 50)
+# target_value = 30
+# found = False
+# for element in my_tuple:
+#     if element == target_value:
+#         found = True
+#         break  
+# print(found)
 
 
