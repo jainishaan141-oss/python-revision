@@ -130,16 +130,26 @@
 # 29. Find the first repeated element
 # Given a list, use a set to find the first value that appears for a second time.
 
-numbers = [5, 3, 8, 3, 5, 9]
-repeated= []
-for i in numbers:
-    already = False
-    for j in repeated:
-        if j == i:
-            already = True
-    if already:
-        print(i)
-        break
-    repeated += [i]
+# numbers = [5, 3, 8, 3, 5, 9]
+# repeated= []
+# for i in numbers:
+#     already = False
+#     for j in repeated:
+#         if j == i:
+#             already = True
+#     if already:
+#         print(i)
+#         break
+#     repeated += [i]
+
+# 30. Unique visitor analytics
+# Given visitor IDs recorded over several days, calculate:
+
+# - all unique visitors,
+# - visitors who visited on both days,
+# - visitors who visited only on the first day,
+# - visitors who visited only on the second day.
+
+
 
 
