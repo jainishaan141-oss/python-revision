@@ -95,11 +95,11 @@
 #         print(j, end = " ")
 #     print()
 
-# A B C D E
-# A B C D E
-# A B C D E
-# A B C D E
-# A B C D E
+# A B C D E 
+# A B C D E 
+# A B C D E 
+# A B C D E 
+# A B C D E 
 
 # for i in range(5):
 #     for j in range(65, 70):
@@ -126,9 +126,9 @@
 # for i in range(5):
 #     for j in range(5):
 #         if(i + j) %2 == 0:
-#             print(0, end = " ")
-#         else:
 #             print(1, end = " ")
+#         else:
+#             print(0, end = " ")
 #     print()
 
 # 1 2 3 4
